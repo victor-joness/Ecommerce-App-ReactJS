@@ -1,0 +1,63 @@
+.order{
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.order h3{
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.orderContainer{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.12) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.item span{
+    margin-right: 1.5rem;
+}
+
+.item-navbar{
+    display: flex;
+    gap: 20px;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.item span:first-child{
+    font-weight: bold;
+}
+
+.item{
+    margin-left: 0.5rem;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.pending{
+    color: rgb(253, 181, 40);
+    background: rgba(253, 181, 40, 0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.dispatched{
+    color: rgb(38, 198, 249);
+    background-color: rgba(38, 198, 249, 0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.delivered{
+    color: rgb(102, 108, 249);
+    background-color:rgba(102, 108, 249, 0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
