@@ -1,0 +1,36 @@
+.form-login{
+    max-width: 350px;
+    width: 100%;
+    margin: 12% auto;
+}
+
+.form-login h2{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-login button, .form-login input{
+    height: 50px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-login button{
+    cursor: pointer;
+}
+
+.form-login input:focus, 
+.form-login button:focus{
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.form-login p{
+    color: red;
+    text-align: center;
+}
+
