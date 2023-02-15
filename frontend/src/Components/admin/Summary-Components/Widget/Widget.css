@@ -1,0 +1,27 @@
+.widget{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.text h3{
+    font-weight: 900;
+}
+
+.text p{
+    font-size: 14px;
+    color: rgba(234, 234, 255,0.68);
+}
+
+.percentagem{
+    margin-left: 0.5rem;
+    font-size: 14px;
+}
+
+
