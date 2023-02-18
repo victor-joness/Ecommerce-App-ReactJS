@@ -1,0 +1,29 @@
+.main{
+    background: rgb(48, 51, 78);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+
+.info{
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 3px;
+    background: rgba(38, 198, 249, 0.12);
+}
+
+.info:nth-child(even){
+    background: rgba(102, 108, 255, 0.12);
+}
+
+.title{
+    flex: 1;
+}
+
+.data{
+    flex: 1;
+    font-weight: 700;
+}
