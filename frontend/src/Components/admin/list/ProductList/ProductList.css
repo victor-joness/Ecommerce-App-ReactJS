@@ -1,0 +1,27 @@
+.container img{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button{
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red;
+}
+
+.view{
+    background-color: rgb(48, 209, 33);
+}
