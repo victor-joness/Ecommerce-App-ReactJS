@@ -1,0 +1,50 @@
+.dispatchedBTN{
+    background-color: rgb(38, 198, 249);
+}
+
+.deliveredBTN{
+    background-color: rgb(102, 108, 255);
+}
+
+.view{
+    background-color: rgb(114, 225, 40);
+}
+
+.pending{
+    color: rgb(253, 181, 40);
+    background: rgba(253, 181, 40,0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.dispatched{
+    color: rgb(38, 198, 249);
+    background-color: rgba(38, 198, 249,0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.delivered{
+    color: rgb(102, 108, 255);
+    background-color: rgba(102, 108, 255,0.12);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button{
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
