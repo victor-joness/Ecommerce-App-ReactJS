@@ -15,7 +15,6 @@ export default function ProductList() {
 
   const handleDelete = (id) => {
     dispatch(productsDelete(id));
-
   };
 
   const rows =
