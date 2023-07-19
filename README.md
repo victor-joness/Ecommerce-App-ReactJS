@@ -1,4 +1,4 @@
-# Blog App ReactJS
+# Ecommerce App ReactJS
 
 ## 💻 Projeto
 O Ecommerce-App-ReactJS tem como objetivo fornecer uma solução completa e escalável para empresas que desejam estabelecer ou expandir sua presença no comércio eletrônico. 
